@@ -14,7 +14,7 @@ public class FORMM extends JDialog {
 
     public FORMM( JFrame parent){
         super(parent);
-        setTitle("creat a new account");
+        setTitle("create a new account");
         setContentPane(registerPanel);
         setMaximumSize(new Dimension(450,474));
         setModal(true);
